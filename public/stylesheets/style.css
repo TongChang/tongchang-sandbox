@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.tap-container {
+  width: 340px;
+}
+
+.tap-button {
+  border: none;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 5px;
+}

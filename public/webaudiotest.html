@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <title>web audio test page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="stylesheets/style.css" rel="stylesheet">
+        <script src="javascripts/BufferLoader.js"></script>
+        <script src="javascripts/SoundSource.js"></script>
+        <script src="javascripts/uicontrol.js"></script>
+        <script src="javascripts/webaudio.js"></script>
+        <script src="javascripts/init.js"></script>
+    </head>
+    <body>
+        <h1>Web Audio Test</h1>
+        <section>
+            <h2>eight beat</h2>
+            <h3>tempo</h3>
+            <div id="tempoCounter">60</div>
+            <label for="tempo"></label><input type="range" name="tempo" min="40" max="240" step="1" value="60" id="tempoSlider">
+            <button type="button" onclick="eightBeat()">eightBeat</button>
+        </section>
+        <section>
+            <h2>beat taps</h2>
+            <div class="tap-container">
+                <button type="button" name="clap" class="tap-button">clap</button>
+                <button type="button" name="percussion" class="tap-button">percussion</button>
+                <button type="button" name="progression" class="tap-button">progression</button>
+                <button type="button" name="snare" class="tap-button">snare</button>
+                <button type="button" name="hihat" class="tap-button">hihat</button>
+                <button type="button" name="kick" class="tap-button">kick</button>
+            </div>
+        </section>
+    </body>
+</html>
